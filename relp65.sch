@@ -404,4 +404,205 @@ F 3 "~" H 7200 1700 50  0001 C CNN
 	1    7200 1700
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Connector:USB_C_Receptacle J?
+U 1 1 5E727671
+P 1550 1950
+F 0 "J?" H 1657 3217 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 1657 3126 50  0000 C CNN
+F 2 "" H 1700 1950 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1700 1950 50  0001 C CNN
+	1    1550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E72F7BF
+P 1550 3750
+F 0 "#PWR?" H 1550 3500 50  0001 C CNN
+F 1 "GND" H 1555 3577 50  0000 C CNN
+F 2 "" H 1550 3750 50  0001 C CNN
+F 3 "" H 1550 3750 50  0001 C CNN
+	1    1550 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 3750 1550 3650
+Wire Wire Line
+	1550 3650 1250 3650
+Wire Wire Line
+	1250 3650 1250 3550
+Connection ~ 1550 3650
+Wire Wire Line
+	1550 3650 1550 3550
+Wire Wire Line
+	2150 1650 2300 1650
+Wire Wire Line
+	2300 1650 2300 1750
+Wire Wire Line
+	2300 1750 2150 1750
+Wire Wire Line
+	2150 1450 2300 1450
+Wire Wire Line
+	2300 1450 2300 1550
+Wire Wire Line
+	2300 1550 2150 1550
+$Comp
+L Device:R_Small R?
+U 1 1 5E7C6785
+P 2550 1150
+F 0 "R?" V 2354 1150 50  0000 C CNN
+F 1 "5k1" V 2445 1150 50  0000 C CNN
+F 2 "" H 2550 1150 50  0001 C CNN
+F 3 "~" H 2550 1150 50  0001 C CNN
+	1    2550 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E7C77A5
+P 2900 1250
+F 0 "R?" V 3096 1250 50  0000 C CNN
+F 1 "5k1" V 3005 1250 50  0000 C CNN
+F 2 "" H 2900 1250 50  0001 C CNN
+F 3 "~" H 2900 1250 50  0001 C CNN
+	1    2900 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E7C9611
+P 3250 1300
+F 0 "#PWR?" H 3250 1050 50  0001 C CNN
+F 1 "GND" H 3255 1127 50  0000 C CNN
+F 2 "" H 3250 1300 50  0001 C CNN
+F 3 "" H 3250 1300 50  0001 C CNN
+	1    3250 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 1150 2450 1150
+Wire Wire Line
+	2650 1150 3250 1150
+Wire Wire Line
+	3250 1150 3250 1250
+Wire Wire Line
+	3000 1250 3250 1250
+Connection ~ 3250 1250
+Wire Wire Line
+	3250 1250 3250 1300
+Wire Wire Line
+	2800 1250 2150 1250
+$Comp
+L Power_Protection:PRTR5V0U2X D?
+U 1 1 5E7D05BA
+P 3150 2600
+F 0 "D?" V 3104 3144 50  0000 L CNN
+F 1 "PRTR5V0U2X" V 3195 3144 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 3210 2600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 3210 2600 50  0001 C CNN
+	1    3150 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 3650 2650 3650
+Wire Wire Line
+	2650 3650 2650 2600
+$Comp
+L power:VCC #PWR?
+U 1 1 5E7D6F6D
+P 2300 950
+F 0 "#PWR?" H 2300 800 50  0001 C CNN
+F 1 "VCC" H 2317 1123 50  0000 C CNN
+F 2 "" H 2300 950 50  0001 C CNN
+F 3 "" H 2300 950 50  0001 C CNN
+	1    2300 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 950  2300 950 
+$Comp
+L power:VCC #PWR?
+U 1 1 5E7D9E42
+P 3650 2400
+F 0 "#PWR?" H 3650 2250 50  0001 C CNN
+F 1 "VCC" H 3667 2573 50  0000 C CNN
+F 2 "" H 3650 2400 50  0001 C CNN
+F 3 "" H 3650 2400 50  0001 C CNN
+	1    3650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5E7DC463
+P 3400 900
+F 0 "#PWR?" H 3400 750 50  0001 C CNN
+F 1 "VCC" H 3417 1073 50  0000 C CNN
+F 2 "" H 3400 900 50  0001 C CNN
+F 3 "" H 3400 900 50  0001 C CNN
+	1    3400 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse_Small F?
+U 1 1 5E7DE1EC
+P 3650 900
+F 0 "F?" V 3445 900 50  0000 C CNN
+F 1 "500mA" V 3536 900 50  0000 C CNN
+F 2 "" H 3700 700 50  0001 L CNN
+F 3 "~" H 3650 900 50  0001 C CNN
+	1    3650 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E7DF43F
+P 3950 900
+F 0 "#PWR?" H 3950 750 50  0001 C CNN
+F 1 "+5V" H 3965 1073 50  0000 C CNN
+F 2 "" H 3950 900 50  0001 C CNN
+F 3 "" H 3950 900 50  0001 C CNN
+	1    3950 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 900  3550 900 
+Wire Wire Line
+	3750 900  3950 900 
+Wire Wire Line
+	3650 2400 3650 2600
+Wire Wire Line
+	2300 1550 2850 1550
+Wire Wire Line
+	2850 1550 2850 1650
+Wire Wire Line
+	2850 1650 3350 1650
+Connection ~ 2300 1550
+Wire Wire Line
+	2300 1750 2800 1750
+Wire Wire Line
+	2800 1750 2800 1850
+Wire Wire Line
+	2800 1850 3150 1850
+Connection ~ 2300 1750
+Text GLabel 3700 1650 2    50   Input ~ 0
+D-
+Text GLabel 3700 1850 2    50   Input ~ 0
+D+
+Wire Wire Line
+	3150 2100 3150 1850
+Connection ~ 3150 1850
+Wire Wire Line
+	3150 1850 3700 1850
+Wire Wire Line
+	3150 3100 4200 3100
+Wire Wire Line
+	4200 3100 4200 2050
+Wire Wire Line
+	4200 2050 3350 2050
+Wire Wire Line
+	3350 2050 3350 1650
+Connection ~ 3350 1650
+Wire Wire Line
+	3350 1650 3700 1650
 $EndSCHEMATC
