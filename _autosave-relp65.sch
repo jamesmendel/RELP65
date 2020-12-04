@@ -504,4 +504,84 @@ Wire Notes Line
 	3750 4900 5550 4900
 Wire Notes Line
 	3750 5800 5550 5800
+Text GLabel 7400 4800 2    50   Input ~ 0
+ROW4
+Wire Wire Line
+	7400 4800 7150 4800
+Text GLabel 7400 4700 2    50   Input ~ 0
+ROW3
+Text GLabel 7400 4600 2    50   Input ~ 0
+ROW2
+Text GLabel 7400 4500 2    50   Input ~ 0
+ROW1
+Text GLabel 7400 2100 2    50   Input ~ 0
+ROW0
+Wire Wire Line
+	7400 2100 7150 2100
+Wire Wire Line
+	7400 4500 7150 4500
+Wire Wire Line
+	7150 4600 7400 4600
+Wire Wire Line
+	7400 4700 7150 4700
+Text GLabel 7400 4900 2    50   Input ~ 0
+COL0
+Text GLabel 7400 5000 2    50   Input ~ 0
+COL1
+Text GLabel 7450 3100 2    50   Input ~ 0
+COL2
+Text GLabel 7450 3000 2    50   Input ~ 0
+COL3
+Text GLabel 7450 2700 2    50   Input ~ 0
+COL4
+Text GLabel 7450 2600 2    50   Input ~ 0
+COL5
+Text GLabel 7450 2500 2    50   Input ~ 0
+COL6
+Text GLabel 7450 4000 2    50   Input ~ 0
+COL7
+Text GLabel 7450 3900 2    50   Input ~ 0
+COL8
+Text GLabel 7450 3700 2    50   Input ~ 0
+COL9
+Text GLabel 7450 3800 2    50   Input ~ 0
+COL10
+Text GLabel 7450 3600 2    50   Input ~ 0
+COL11
+Text GLabel 7450 3500 2    50   Input ~ 0
+COL12
+Text GLabel 7450 3400 2    50   Input ~ 0
+COL13
+Text GLabel 7450 3300 2    50   Input ~ 0
+COL14
+Wire Wire Line
+	7150 2500 7450 2500
+Wire Wire Line
+	7450 2600 7150 2600
+Wire Wire Line
+	7150 2700 7450 2700
+Wire Wire Line
+	7450 3000 7150 3000
+Wire Wire Line
+	7150 3100 7450 3100
+Wire Wire Line
+	7450 3300 7150 3300
+Wire Wire Line
+	7150 3400 7450 3400
+Wire Wire Line
+	7450 3500 7150 3500
+Wire Wire Line
+	7150 3600 7450 3600
+Wire Wire Line
+	7450 3700 7150 3700
+Wire Wire Line
+	7150 3800 7450 3800
+Wire Wire Line
+	7450 3900 7150 3900
+Wire Wire Line
+	7150 4000 7450 4000
+Wire Wire Line
+	7400 4900 7150 4900
+Wire Wire Line
+	7150 5000 7400 5000
 $EndSCHEMATC

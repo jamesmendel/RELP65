@@ -81,8 +81,6 @@ Connection ~ 8250 4600
 Wire Wire Line
 	8250 5400 8250 4600
 Connection ~ 9350 3000
-Wire Wire Line
-	2400 5050 2750 5050
 Connection ~ 9900 3000
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_RSHIFT1
@@ -274,8 +272,6 @@ Connection ~ 2750 2200
 Wire Wire Line
 	2750 1850 2750 2200
 Wire Wire Line
-	2750 5050 2750 5400
-Wire Wire Line
 	1650 4600 1650 5400
 Connection ~ 1650 4600
 Wire Wire Line
@@ -356,8 +352,6 @@ Wire Wire Line
 Connection ~ 4050 5050
 Wire Wire Line
 	3500 5050 4050 5050
-Connection ~ 3500 5050
-Connection ~ 2400 5050
 Connection ~ 1300 5050
 Wire Wire Line
 	1000 5050 1300 5050
@@ -2014,14 +2008,15 @@ $EndComp
 Connection ~ 2400 5850
 Wire Wire Line
 	2400 5850 2950 5850
-Connection ~ 2750 5050
-Wire Wire Line
-	2750 5050 3500 5050
 Wire Wire Line
 	1300 2650 2400 2650
-Wire Wire Line
-	2750 4600 2750 5050
-Connection ~ 2750 4600
 Text Notes 4450 6600 2    50   ~ 0
 Note that MX_ESC1 is placed at the bottom of COL1 instead of recieving its own column.
+Connection ~ 2400 5050
+Connection ~ 3500 5050
+Connection ~ 2750 4600
+Wire Wire Line
+	2400 5050 3500 5050
+Wire Wire Line
+	2750 4600 2750 5400
 $EndSCHEMATC
